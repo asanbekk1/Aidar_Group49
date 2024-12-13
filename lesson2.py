@@ -35,7 +35,6 @@ class Rectangle(Figure):  # Corrected 'Figures' to 'Figure'
         area = self.calculate_area()
         print(f"Rectangle length: {self.length}{Figure.unit}, width: {self.width}{Figure.unit}, area: {area}{Figure.unit}")
 
-# Create a list of figures
 figures = [
     Square(5),
     Square(3),
@@ -44,6 +43,5 @@ figures = [
     Rectangle(7, 2)
 ]
 
-# Iterate through each figure and call the info method
 for fig in figures:
     fig.info()

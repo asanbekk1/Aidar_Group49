@@ -41,7 +41,7 @@ print(teacher1.salary())
 
 def create_students():
     students = []
-    student1 = Student('адилет Толобаев', 14, False, {'math': 6, 'rus': 2, 'engl': 5})
+    student1 = Student('Адилет Толобаев', 14, False, {'math': 6, 'rus': 2, 'engl': 5})
     student2 = Student('Тендик Туратбеков', 36, False, {'math': 3, 'rus': 3, 'engl': 4})
     student3 = Student('Чынгыз Керинбаев', 27, False, {'math': 5, 'rus': 2, 'engl': 4})
     students.append(student1)
