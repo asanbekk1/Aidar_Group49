@@ -12,3 +12,4 @@ for i in range(N-1):
             a[j], a[j+1] = a[j+1], a[j]
 
 print(a)
+
